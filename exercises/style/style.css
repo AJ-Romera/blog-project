@@ -3,22 +3,20 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.post-link {
-    text-decoration: none;
-}
-
 header {
     min-height: 300px;
-    background-color: crimson;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../assets/banner.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
+}
+
+.home-page header {
+    background-image: url(../assets/banner.jpg);
 }
 
 header > * {
@@ -164,4 +162,8 @@ footer {
     border: 1px solid blueviolet;
     border-radius: 5px;
     padding: 5px 8px;
+}
+
+a.post-link {
+    text-decoration: none;
 }
